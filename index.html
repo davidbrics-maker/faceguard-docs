@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Guard - Documentação Legal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 60px 40px;
+            max-width: 600px;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .link-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .link-card .icon {
+            font-size: 2em;
+        }
+        
+        .link-card .text {
+            text-align: left;
+        }
+        
+        .link-card .title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .link-card .description {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .footer p {
+            margin: 5px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .link-card {
+                flex-direction: column;
+                text-align: center;
+            }
+            .link-card .text {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🛡️</div>
+        <h1>Face Guard</h1>
+        <p class="subtitle">Sistema de Detecção Automática de Faces  
+para Proteção de Direitos de Imagem</p>
+        
+        <div class="links">
+            <a href="privacy-policy.html" class="link-card">
+                <div class="icon">🔒</div>
+                <div class="text">
+                    <div class="title">Política de Privacidade</div>
+                    <div class="description">Como coletamos, usamos e protegemos seus dados</div>
+                </div>
+            </a>
+            
+            <a href="terms-of-service.html" class="link-card">
+                <div class="icon">📜</div>
+                <div class="text">
+                    <div class="title">Termos de Uso</div>
+                    <div class="description">Regras e condições para utilizar o serviço</div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Face Guard</strong></p>
+            <p>© 2025 Todos os direitos reservados</p>
+            <p style="margin-top: 10px; font-size: 0.8em;">
+                Registro INPI: BR512025004183-7  
+
+                Copyright USA: 1-15059444761
+            </p>
+        </div>
+    </div>
+</body>
+</html>
